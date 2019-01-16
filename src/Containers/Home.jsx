@@ -8,7 +8,7 @@ import { firestoreConnect } from "react-redux-firebase";
 import { compose } from "redux";
 import { Redirect } from 'react-router-dom'
 
-class Home extends Component {
+export class Home extends Component {
   state = {
     data: {
         url: "",
